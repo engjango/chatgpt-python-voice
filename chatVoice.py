@@ -4,8 +4,7 @@ import re
 import openai
 import speech_recognition as sr
 import pyttsx3
-import winsound
-import threading
+#import winsound
 
 from deep_translator import GoogleTranslator
 
@@ -74,7 +73,7 @@ while(1):
 			
 			if (('Computer' in MyText) or ('computer' in MyText.lower())):
 				# beep
-				winsound.Beep(415, 250)
+				#winsound.Beep(415, 250)
 				
 				MyText = MyText.replace('Computer', '').replace('computer', '')
 				
@@ -82,7 +81,7 @@ while(1):
 				MyText = GoogleTranslator(source='auto', target=LANG).translate(MyText)			
 				
 				# beep
-				winsound.Beep(523, 250)
+				#winsound.Beep(523, 250)
 			
 				# AI
 				print('Thinking...')
