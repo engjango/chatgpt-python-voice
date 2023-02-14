@@ -1,7 +1,7 @@
 # ChatGPT3 Python Voice Chat
 Small voice chat to talk with chatGPT using python.
 
-![Screenshot main menu](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-55.png)
+![Screenshot main menu](https://github.com/engjango/chatgpt-python-voice/blob/main/screenshot.png)
 
 # Features
 
@@ -18,7 +18,7 @@ python -m ensurepip --upgrade
 ```
 Then,
 ```
-pip install -r openai re openai speech_recognition pyttsx3 winsound
+pip install -r openai re openai speech_recognition pyttsx3
 ```
 
 ## Windows (10)
@@ -28,7 +28,7 @@ py -m ensurepip --upgrade
 ```
 Then,
 ```
-pip install -r openai re openai speech_recognition pyttsx3 winsound
+pip install -r openai re openai speech_recognition pyttsx3
 ```
 
 # Compile and Run
