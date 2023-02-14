@@ -45,7 +45,7 @@ python chatVoice.py
 python chatVoice.py
 ```
 
-# Chatting
+# Talk to ChatGPT
 
 * Talk to chatgpt when the message "Listening" appears, say something and start your sentence with the word "Computer". Example: Computer, how are you?
 
