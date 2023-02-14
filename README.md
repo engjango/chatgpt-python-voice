@@ -30,10 +30,14 @@ Then,
 ```
 pip install -r openai re openai speech_recognition pyttsx3
 ```
+# Get an OpenAI API Key
+Register at "openai.com" and generate your api key.
 
 # Compile and Run
 
-Once you have the dependencies (see above), download, unzip and navigate to this respository and run the following commands in your terminal.
+Once you have the dependencies (see above) and the api key, download, unzip and navigate to this respository and change the openai api key in chatVoice.py (Line 16).
+
+Then run the following commands in your terminal.
 
 ## Linux (Ubuntu)
 ```
